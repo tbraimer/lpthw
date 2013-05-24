@@ -1,0 +1,36 @@
+# assinging the value of "There are %d types of people" to the letter x.  
+# The formatter "%" is used to refer to the command after the ",".
+x = "There are %d types of people" % 10
+# assiging the word "binary" to the variable binary.  
+# because it is used in a string it will allow us to use the variable as a 
+# command to get the desired result.
+binary = "binary"
+# assiging the word "don't" to the variable do_not  
+# because it is used in a string it will allow us to use the variable as a 
+# command to get the desired result.
+do_not = "don't"
+# assiging the phrase "Those who know %s and those who %s" to the variable "y"  
+# because it is used in a string it will allow us to use the variable as a 
+# command to get the desired result. The formatter "%s" will allow us to use populate data 
+# in paranthesis after the comma which have assigned strings.  "
+# since we assigned a string as a value.
+y = "Those who know %s and those who %s" % (binary, do_not)
+
+print x
+print y
+
+# need to figure out what the r stands for.  it refers to the variable x in this case 
+# which is assigned a string.
+print "I said %r" % x  # a string inside a string
+print "I also said: '%s'." % y # a string inside a string happens 3 times here.
+
+hilarious = False
+joke_evaluation = "Isn't that joke funny?! %r"
+
+print joke_evaluation % hilarious
+
+w = "This is the left side of ..."
+e = "a string with a right side."
+
+#shows how we can join two strings adding variables together.
+print w + e

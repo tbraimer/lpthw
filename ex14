@@ -1,0 +1,22 @@
+from sys import argv # pulled the argv module from sys
+
+script, user_name = argv # assigned the file name to script.
+prompt = '>' # created a string value for the variable
+
+print "Hi %s, I'm the %s script." % (user_name, script)
+print "I'd like to ask you a few questions."
+print "Do you like me %s?" % user_name
+likes = raw_input(prompt) #allows you to type in a string.  same below.
+
+print "Where do you live %s?" % user_name
+lives = raw_input(prompt)
+
+print "What kind of computer do you have?"
+computer = raw_input(prompt)
+
+print """
+Alright, so you said %r about liking me.
+You live in %r. Not sure where that is.
+And you have a %r computer.  Nice.
+""" % (likes, lives, computer) 
+#changing value of prompt to x caused he x to be printed 

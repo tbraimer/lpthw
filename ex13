@@ -1,0 +1,9 @@
+from sys import argv # pulls the argv module from the sys file.
+# assigns the module argv to cript, first second and third variables
+script, first, second, third = argv
+# allows for input when running the code and will take your inputs and print them.  
+# inputs can be anything.  the first variable calls the name of the file.
+print "The script is called:", script
+print "Your first variable is:", first
+print "Your second variable is:", second
+print "Your third variable is:", third

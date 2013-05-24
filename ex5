@@ -1,0 +1,38 @@
+# assigns the value of "Zed A. Shaw" to "my_name".  We're able to use Zed A. Shaw 
+# which has spaces because we enclosed it with "'" which created a string.
+my_name = 'Zed A. Shaw'
+# assigns the value of "35" to "my_age". The"#" is used to add comments about the line.
+my_age = 35 # not a lie
+# assigns the value of "74" to "my_height". The"#" is used to add comments about the line.
+my_height = 74 # inches
+# assigns the value of "180" to "my_weight". 
+# The"#" is used to add comments about the line.
+my_weight = 180 # lbs
+# assigns the value of "Blue" to "my_eyes". 
+my_eyes = 'Blue'
+# assigns the value of "White" to "my_eyes".
+my_teeth = 'White'
+# assigns the value of "White" to "my_hair".  
+my_hair = 'Brown'
+
+
+# prints "Let's talk about %s." The "%s" provides a reference to use the value of my_name
+print "Let's talk about %s." % my_name
+# prints "He's %d inches tall." 
+# The "%d" provides a reference to use the value of my_height
+print "He's %d inches tall." % my_height
+# prints "He's %d pounds heavy." 
+# The "%d" provides a reference to use the value of my_weight
+print "He's %d pounds heavy." % my_weight
+# prints "Actually that's not too heavy.
+print "Actually that's not too heavy."
+# prints "He's got %s eyes and %s hair." 
+# The "%s" provides a reference to use the value of my_eyes & my_hair
+print "He's got %s eyes and %s hair." % (my_eyes, my_hair)
+# prints "His teeth are usually %s depending on the coffee." 
+# The "%s" provides a reference to use the value of my_teeth
+print "His teeth are usually %s depending on the coffee." % my_teeth
+
+# this line is tricky, try to get it exactly right
+print "If I add %d, %d, and %d I get %d." % (
+    my_age, my_height, my_weight, my_age + my_height + my_weight)

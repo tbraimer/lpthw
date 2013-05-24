@@ -1,0 +1,44 @@
+# prints this line "I will now count my chickens:"
+print "I will now count my chickens:"
+
+# prints "Hens" then divides 30 by 6 and adds 25.
+print "Hens", 25 + 30 / 6
+# prints "Roosters" then multiplies 25 and 3 then takes 4 percent of that number and subtracts it from 100.  or (100- (25*3).04)=3
+print "Roosters", 100 - 25 * 3 % 4
+
+# prints "Now I will count the eggs:"
+print "Now I will count the eggs:"
+
+# prints the answer to the equation (1/4 (4*.02) when dealing with integers the / and % brings back whole numbers.  
+#so all we're doing is the arrithmatic of 3+2+1-5+6 to get to 7
+print 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
+
+# prints "Is it true that 3 + 2 < 5 - 7?"
+print "Is it true that 3 + 2 < 5 - 7?"
+
+# prints calculation of 3 + 2 < 5 - 7 since the statement is false the answer False is returned.
+print 3 + 2 < 5 - 7
+
+# prints "What is 3 + 2?" then the "," allows for another command in which the calculation of "3 + 2" is performed.
+print "What is 3 + 2?", 3 + 2
+# prints "What is 5 - 7?" then the "," allows for another command in which the calculation of "5 - 7" is performed.
+print "What is 5 - 7?", 5 - 7
+
+#prints "Oh, that's why it's False"
+print "Oh, that's why it's False"
+
+# prints "How about some more."
+print "How about some more."
+
+# prints "Is it greater?" then the "," allows for another command on the same line and the caclulation of "5 > -2"
+#is performed which returns a "True" statement since it is True
+print "Is it greater?", 5 > -2
+# prints "Is it greater or equal?" then the "," allows for another command on the same line and the caclulation of "5 >= -2"
+#is performed which returns a "True" statement since it is True
+print "Is it greater or equal?", 5 >= -2
+# prints "Is it less or equal?" then the "," allows for another command on the same line and the caclulation of "5 <= -2"
+#is performed which returns a "True" statement since it is True
+print "Is it less or equal?", 5 <= -2
+
+# the "#" must be included at the beginning of each line if you do not want python the read and react.
+

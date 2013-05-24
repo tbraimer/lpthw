@@ -1,0 +1,16 @@
+print "How old are you?",
+age = raw_input() # set's variable as a something you can input.
+print "How tall are you?"
+height = raw_input()
+print "How much do you weigh?"
+weight = raw_input()
+
+print "So you're %r old, %r tall and %r heavy." % (age, height, weight)
+#don't understand why we're using %r to pull info in when %r is for "debugging".
+
+# Study Drills
+# Go online and find out what Python's raw_input does.  allows for keyboard input
+# Can you find other ways to use it? Try some of the samples you find. 
+# Write another "form" like this to ask some other questions.
+# Related to escape sequences, try to find out why the last line has '6\'2"'
+# with that \' sequence. See how the single-quote needs to be escaped because otherwise it would end the string?

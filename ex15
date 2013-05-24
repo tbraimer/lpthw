@@ -1,0 +1,19 @@
+# pulls argv module from sys file.
+from sys import argv
+# assigns argv module to script and filename as variables.  script will be file name.
+script, filename = argv
+
+txt = open(filename) #allows you to open a file using open function.  
+# it's the preferred method.
+# prints filename and 
+print "Here's your file %r:" % filename
+# reads and prints file. 
+print txt.read()
+#prints
+print "Type the filename again:"
+# allows for keyboard input as value for variable
+file_again = raw_input("> ")
+# uses open function to open file and assigns it as value to txt_again variable.
+txt_again = open(file_again)
+# prints file using read function
+print txt_again.read()

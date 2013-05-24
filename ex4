@@ -1,0 +1,36 @@
+# assigns the value of 100 to the word "cars"
+cars = 100
+# assigns the value of 4.0 to the phrase "space_in_a_car"
+space_in_a_car = 4.0
+# assigns the value of 30 to the word "drivers"
+drivers = 30
+# assigns the value of 90 to the word "passengers"
+passengers = 90
+# assigns the value of the calculation of "cars - drivers" tp"cars_not_driven"
+cars_not_driven = cars - drivers
+# assigns the value of "drivers" to cars_driven
+cars_driven = drivers
+# assigns the value of the calculation of "cars_driven * space_in_a_car" to "carpool_capacity"
+carpool_capacity = cars_driven * space_in_a_car
+# assigns the value of the calculation of "passengers / cars_driven" to "average_passengers_per_car"
+average_passengers_per_car = passengers / cars_driven
+
+# prints "There are" then the ","  allows for another command where the value of "cars" 
+# is printed and then prints "cars available." 
+print "There are", cars, "cars available."
+# prints "There are only" then the ","  allows for another command where the value 
+# of "drivers" is printed and then prints "drivers available."
+print "There are only", drivers, "drivers available."
+# prints "There will be" then the ","  allows for another command where the value 
+# of "cars_not_driven" is printed and then prints "empty cars today."
+print "There will be", cars_not_driven, "empty cars today."
+# prints "We can transport" then the ","  allows for another command where the value 
+# of "carpool_capacity" is printed and then prints "people today."
+print "We can transport", carpool_capacity, "people today."
+# prints "We have" then the ","  allows for another command where the value 
+# of "passengers" is printed and then prints "to carpool today."
+print "We have", passengers, "to carpool today."
+# prints "We need to put about" then the ","  allows for another command where the value 
+# of "average_passengers_per_car" is printed and then prints "in each car."
+print "We need to put about", average_passengers_per_car, "in each car."
+

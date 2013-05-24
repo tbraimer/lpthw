@@ -1,0 +1,13 @@
+from sys import argv # pulls the argv module from the sys file.
+# assigns the module argv to cript, first second and third variables
+script, left, right, dunk, layup, three = argv
+
+x = raw_input(">")
+# allows for input when running the code and will take your inputs and print them.  
+# inputs can be anything.  the first variable calls the name of the file.
+print "The script is called:", script
+print "Lebron can go left:", left
+print "Lebron can go right:", right
+print "If Lebron goes right:", dunk
+print "If Lebron goes left:", layup
+print "If Lebron pulls up:", three
