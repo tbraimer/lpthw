@@ -1,0 +1,13 @@
+# Function check list
+# 1. define your function using "def"
+# 2. name your function. in theory you want it to say what it will do.  If it is multiple
+#	words use an underscore(_).
+# 3.  Need an open parenthisis.
+# 4. Need an argument in the parenthesis.  if you have multiple paranthesis you need a 
+#	comma and a space.
+# 5.  Need a closed parenthesis.
+# 6.  Need a colon
+# 7. must indent after colon (4 spaces).
+# 8. Need to create variables to assign to the parameters.
+# 9.  You can run operartions using the repr functions and your arguments.
+# 10. 

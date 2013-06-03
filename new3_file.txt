@@ -1,0 +1,3 @@
+still not sure what's going on
+hitting cntrlc takes us back to bash prompt
+hitting return muct create the file and allow us to input 3x

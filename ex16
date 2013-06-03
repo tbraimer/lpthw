@@ -1,0 +1,49 @@
+from sys import argv #imports argv parameters for running script.
+#assigns those parameters to script and filename with the first variable always being 
+#the name of the file you're running.
+script, filename = argv 
+#prints the strings
+print "We are going to erase %r" % filename #the repr function pulls the 
+#filename used when running script.
+print "If you don't want that hit CTRL_C (^C)." #cntrlc gets us out of python
+print "If you don't want that hit RETURN." #enter moves us on with the script
+
+raw_input("?") #prints string and allows for keyboard input
+
+print "Opening the file..." #prints string
+target = open(filename, 'w') #assigns open function to target variable.  
+#whats the purpose of the w?  means to open the file in write mode
+
+print "Truncating the file.  Goodbye!"
+target.truncate() #need to better understand the truncate method
+
+print "Now I'm going to ask you for three lines."
+
+line1 = raw_input("line1: ") #allows for keyboard input after string is printed.
+line2 = raw_input("line2: ")
+line3 = raw_input("line3: ")
+
+print "I'm going to write this to the file."
+
+target.write(line1) #writes line 1 to file.
+target.write("\n") #goes to the next line.
+target.write(line2) #writes line 2 to file.
+target.write("\n") #goes to the next line.
+target.write(line3) #writes line 3 to file.
+target.write("\n") #goes to the next line.
+
+print "And finally we close it"
+target.close() #closes file.  
+
+#first time I receive the following error.
+#  "ex16", line 1
+#    from sys input argv
+#                ^
+#SyntaxError: invalid syntax
+# The error was using the word input instead of import.
+
+#2nd time failed too.
+#  File "ex16", line 26
+#    target.write("n\")
+#                     ^
+#SyntaxError: EOL while scanning string literal
